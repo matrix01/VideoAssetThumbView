@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		F1AD13AD1FF41134007AE40F /* TestingVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F1AD13AC1FF41134007AE40F /* TestingVideo.mp4 */; };
+		F1AD13B01FF4158B007AE40F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F1AD13AE1FF4158A007AE40F /* LICENSE */; };
+		F1AD13B11FF4158B007AE40F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F1AD13AF1FF4158A007AE40F /* README.md */; };
 		F1E6118C1FE3E5B000B5CBEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E6118B1FE3E5B000B5CBEE /* AppDelegate.m */; };
 		F1E6118F1FE3E5B000B5CBEE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E6118E1FE3E5B000B5CBEE /* ViewController.m */; };
 		F1E611921FE3E5B000B5CBEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1E611901FE3E5B000B5CBEE /* Main.storyboard */; };
@@ -20,6 +22,8 @@
 
 /* Begin PBXFileReference section */
 		F1AD13AC1FF41134007AE40F /* TestingVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TestingVideo.mp4; sourceTree = "<group>"; };
+		F1AD13AE1FF4158A007AE40F /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		F1AD13AF1FF4158A007AE40F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		F1E611871FE3E5B000B5CBEE /* AVAssetGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVAssetGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1E6118A1FE3E5B000B5CBEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F1E6118B1FE3E5B000B5CBEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -65,6 +69,8 @@
 		F1E611891FE3E5B000B5CBEE /* AVAssetGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				F1AD13AE1FF4158A007AE40F /* LICENSE */,
+				F1AD13AF1FF4158A007AE40F /* README.md */,
 				F1AD13AC1FF41134007AE40F /* TestingVideo.mp4 */,
 				F1E611A01FE3E5D500B5CBEE /* AssetGenerator */,
 				F1E6118A1FE3E5B000B5CBEE /* AppDelegate.h */,
@@ -148,8 +154,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1AD13B01FF4158B007AE40F /* LICENSE in Resources */,
 				F1E611AF1FE42DEA00B5CBEE /* loading.png in Resources */,
 				F1E611971FE3E5B000B5CBEE /* LaunchScreen.storyboard in Resources */,
+				F1AD13B11FF4158B007AE40F /* README.md in Resources */,
 				F1AD13AD1FF41134007AE40F /* TestingVideo.mp4 in Resources */,
 				F1E611941FE3E5B000B5CBEE /* Assets.xcassets in Resources */,
 				F1E611921FE3E5B000B5CBEE /* Main.storyboard in Resources */,
